@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+ 
+ <!--<button class="numbers" onclick="function(event, pushData)" id="one">1</button> -->
+
+ <button class="xx" onclick="myFunction()" id="zero">0</button> 
+
+ <button class="xx" onclick="myFunction()" id="one">1</button> 
+ 
+ <button class="xx" onclick="myFunction()" id="two">2</button> 
+ 
+ <button class="xx" onclick="myFunction()" id="three">3</button> 
+ <button class="xx" onclick="myFunction()" id="four">4</button> 
+ <button class="xx" onclick="myFunction()" id="five">5</button> 
+ <button class="xx" onclick="myFunction()" id="six">6</button> 
+ <button class="xx" onclick="myFunction()" id="seven">7</button> 
+ <button class="xx" onclick="myFunction()" id="eight">8</button> 
+ 
+ <button id="numbers" onclick="myFunction()" id="nine">9</button> 
+ 
+
+ <input type="number" name="number" id="written">
+ <p id='result'>Show</p>
+    <script>
+   
+    var b = [];
+    document.getElementsByClassName("numbers").onclick = function() {myFunction()};
+
+    function myFunction() { // if you use the sum or subtract button write the number to the input area without adding to previous numbers.Else, use .push
+   (//alana tıklanan rakamı yazdır.)
+  
+   document.getElementById(result).innerHTML= x
+    
+  
+    
+    /* genel yapı. Butona tıklandığında alana yazdır. Alan bir array olsun.
+    sadece rakamlara tıklanıyorsa .push, dört işlem butonlarına tıklanıyorsa diğer bir alana mevcut rakamla birlikte
+    tıklanan 4 işlemi yazdır. ikinci bir dört işleme tıklanırsa ilk dört işlemin üzerine yazdır.  rakama basıncaya kadar. 
+    Rakama basıldığında yine baştaki işlem tekrar edilir. Bir daha dört işlem rakamına veya eşittire
+     basılırsa sonuç ilk alana yazdırılır. Sonrasında rakama basılırsa ekrana direk yeni rakam yazılır.*/
+   
+    </script>
+    
+
+</body>
+</html>
